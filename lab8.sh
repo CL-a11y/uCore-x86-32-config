@@ -1,5 +1,5 @@
 #!/bin/sh
-timeout 30 make lab8
+timeout 30 make lab8_test
 status=$?
 if [ $status -eq 124 ] #timed out
 then
