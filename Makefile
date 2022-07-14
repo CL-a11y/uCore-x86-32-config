@@ -1,4 +1,4 @@
-setenv:	gcc
+setupenv:	gcc
 	sudo apt install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev \
               gawk build-essential bison flex texinfo gperf libtool patchutils bc \
               zlib1g-dev libexpat-dev pkg-config  libglib2.0-dev libpixman-1-dev git tmux python3 ninja-build zsh -y
@@ -17,6 +17,4 @@ gcc:
 	sudo apt install -y gcc-4.8
 
 lab4_test:
-	cd lab4 && make qemu CC=gcc-4.8 > .qemu.out
-	cat ./lab4/.qemu.out
 	cd lab4 && make grade CC=gcc-4.8
