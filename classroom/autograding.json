@@ -3,7 +3,7 @@
     {
       "name": "lab3",
       "setup": "",
-      "run": "sh ./lab3.sh",
+      "run": "sh ./test.sh",
       "input": "",
       "output": "",
       "comparison": "included",
