@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "lab7",
+      "name": "lab8",
       "setup": "",
-      "run": "sh ./lab7.sh",
+      "run": "sh ./lab8.sh",
       "input": "",
       "output": "",
       "comparison": "included",
