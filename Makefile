@@ -16,7 +16,7 @@ gcc:
 	sudo apt update
 	sudo apt install -y gcc-4.8
 
-lab2:
-	cd lab2 && make qemu CC=gcc-4.8 > .qemu.out
-	cat ./lab2/.qemu.out
-	cd lab2 && make grade CC=gcc-4.8
+lab3:
+	cd lab3 && make qemu CC=gcc-4.8 > .qemu.out
+	cat ./lab3/.qemu.out
+	cd lab3 && make grade CC=gcc-4.8
